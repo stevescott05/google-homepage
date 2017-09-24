@@ -1,0 +1,131 @@
+html {
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+.header {
+    margin:0;
+    padding:0;
+}
+
+.h-group {
+    position: absolute;
+    top:0;
+    width: 100%;
+    min-width: 900px;
+    height: 40px;
+    font-size: 13px;
+    text-align: right;
+    background: none;
+}
+
+.h-group ul {
+    list-style-type: none;
+    padding-right: 30px
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+
+.content {
+    width: 100%;
+    min-width: 900px;
+}
+
+.logo {
+    width: 100%;
+    min-width: 900px;
+    margin: auto;
+}
+
+img {
+    display: block;    
+    margin: auto;    
+    margin-top: 100px;
+    
+}
+
+.searchfield {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    width: 400px;
+}
+
+.buttons {
+    padding-top: 10px;
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    position: relative
+}
+
+#button1 {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    left: 0;
+    color: dimgray;
+    border-style: none;
+    display: block;
+    
+}
+
+#button2 {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    right: 0;
+    font-size: 15px;
+    color: dimgray;
+    border-style: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 900px;
+    height: 40px;
+    background: whitesmoke;
+    font-size: 13px;
+    border-top: thin solid lightgray;
+}
+
+.f-group-left {
+    position: absolute;
+    left: 0;
+    height: 40px;
+    background: none;
+}
+
+.f-group-left ul {
+    list-style-type: none;
+    padding-left: 30px;    
+}
+
+.f-group-right {
+    position: absolute;
+    right: 0;
+    height: 40px;
+    background: none;
+}
+
+.f-group-right ul {
+    list-style-type: none;
+    padding-right: 30px;    
+}
